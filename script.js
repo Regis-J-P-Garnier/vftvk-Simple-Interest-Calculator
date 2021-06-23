@@ -9,7 +9,7 @@ function compute()
         // CALCULATED DATA //
         var interest = Number(principal) * Number(years) * Number(rate) /100.00;
         var year = new Date().getFullYear()+parseInt(years); // WARNING : on 'year' neq 'years"
-        var amount = Number(principal) + Number(interest)
+        var amount = Number(interest)
         // OUTPUT //
         document.getElementById("result").innerHTML="If you deposit <b>"+principal+"</b>,\<br\>at an interest rate of <b>"+rate+"%</b>\<br\>You will receive an amount of <b>"+amount+"</b>,\<br\>in the year <b>"+year+"</b>\<br\>"
     }
