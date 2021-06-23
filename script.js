@@ -11,7 +11,7 @@ function compute()
         var year = new Date().getFullYear()+parseInt(years); // WARNING : on 'year' neq 'years"
         var amount = Number(interest)
         // OUTPUT //
-        document.getElementById("result").innerHTML="If you deposit <b>"+principal+"</b>,\<br\>at an interest rate of <b>"+rate+"%</b>\<br\>You will receive an amount of <b>"+amount+"</b>,\<br\>in the year <b>"+year+"</b>\<br\>"
+        document.getElementById("result").innerHTML="If you deposit <b class="yellowed">"+principal+"</b>,\<br\>at an interest rate of <b class="yellowed">"+rate+"%</b>\<br\>You will receive an amount of <b class="yellowed">"+amount+"</b>,\<br\>in the year <b class="yellowed">"+year+"</b>\<br\>"
     }
 }       
    
