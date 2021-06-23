@@ -24,8 +24,8 @@ function updateRate()
 function validatePrincipal(){
        var principal = document.getElementById("principal").value;
        if ( principal == undefined || principal <= 0){ //test empty, leq 0 or 0
+           document.getElementById("principal").focus();
            alert("Enter a positive number").blur();
-           document.getElementById(myElementID).focus("principal");
            return false;
         }
         return true;
